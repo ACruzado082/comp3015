@@ -1,0 +1,23 @@
+body {
+    background-color: lightgray;
+}
+h1 {
+    color: darkred;
+    background-color: lightgreen;
+    padding: 20px;
+    border: 4px dotted green;
+}
+p{
+    background-color: chartreuse;
+    padding: 20px 30px;
+}
+#inventario {
+    background-color: crimson;
+    border-bottom: 1px solid darkcyan;
+    font-family: Helvetica,Arial, sans-serif;
+}
+.especial {
+    color: darkred;
+    font-weight: bold;
+    font-style: italic;
+}
