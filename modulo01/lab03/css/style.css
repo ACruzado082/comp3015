@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+}
+
+@media (max-width: 600px ) {
+    body {
+        background-color: gray;
+
+    }
+    #logo {
+        width: 20%;
+    }
+    h1 {
+        font-size: xx-large;
+    }
+
+    p { 
+        font-size: 16pt;
+    }
+}
+
+@media ( min-width: 601px) {
+    body {
+        background-color: darkred;
+    }
+}
+
+@media print and (min-width: 601px) {
+    h1 {
+        font-size: large;
+    }
+    #logo {
+        visibility: hidden;
+
+    }
+
+}
