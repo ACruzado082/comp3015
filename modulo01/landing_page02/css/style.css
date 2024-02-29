@@ -1,5 +1,5 @@
 body { 
-    margin: 0 10%;
+    margin: 0;
     display: grid;
     grid-template-areas: 
     "header"
@@ -9,12 +9,25 @@ body {
     grid-gap: 20px;
     padding: 20px;
     background-color: ghostwhite;
+    width: 100%;
 }
 
 #state-design {
     display: grid;
-    grid-template-areas: 
-    "h1 h1 h1"
-    "article article article";
-    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+#state-design h1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+article img {
+    width: 100%;
+}
+
+@media(max-width: 768px){
+    #state-design{
+        display: block;
+    }
 }
