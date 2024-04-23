@@ -1,0 +1,30 @@
+#addTier, #removeTier {
+    margin: 10px;
+    }
+    .tier {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 4px;
+    border: 1px solid lightgray;
+    }
+    .image-list {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+
+    min-height: 120px;
+    }
+    .image-list img {
+    height: 150px;
+    width: auto;
+    margin-right: 10px;
+    cursor: pointer;
+    object-fit: cover;
+    }
+    .ui-state-highlight {
+    height: 100px;
+    width: 100px;
+    background-color: #fafafa;
+    border: 1px dashed #ccc;
+    }
