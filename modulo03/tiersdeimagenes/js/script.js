@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    let tierCount = 3; // Comienza con 3 tiers predefinidos
+    let tierCount = 0; // Comienza con 3 tiers predefinidos
     
     // Añadir un nuevo tier
     $("#addTier").click(function () {
